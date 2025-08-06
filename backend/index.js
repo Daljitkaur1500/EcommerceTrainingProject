@@ -10,7 +10,7 @@ const { type } = require("os");
 
 app.use(express.json());
 app.use(cors());
-
+  
 // Database Connection With MongoDB
 mongoose.connect("mongodb+srv://imaaz888:inspectormills@cybertech.6gzcwrf.mongodb.net/e-commerce");
 
